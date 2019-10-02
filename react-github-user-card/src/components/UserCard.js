@@ -31,7 +31,7 @@ class UserCard extends React.Component {
                 </div>
                 <div className="followers">
                     <h2>Followers:</h2>
-                    <hr></hr>
+                    <hr> </hr>
                     {this.state.userFollowers.map((item) => <p>{item.login}</p>)}
                 </div>
             </div>
